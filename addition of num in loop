@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main(void)
+
+{
+    int firstNo;
+    int secondNo = -1;
+    int sum;
+    
+    while(secondNo != 0) {
+        
+        printf("Enter first number:");
+        scanf("%d", &firstNo);
+        printf("Enter second number:");
+        scanf("%d", &secondNo);
+        
+        if(firstNo == 99 && secondNo == 0) {
+            printf("Finish");
+        }
+        
+        else {
+            sum = firstNo + secondNo;
+            printf("Sum: %d\n", sum);
+        }
+    }
+return 0;
+}
