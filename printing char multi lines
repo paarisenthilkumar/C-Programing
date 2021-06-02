@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(void)
+{
+	int input;
+	
+	scanf("%d", &input); 
+
+	for(int line = 0; line < input && line < 20; line++)
+	{
+		for(int Count = -1; Count < line; Count++)
+		{
+			printf("*#");
+			
+			
+		} 
+    printf("\n");
+		
+	} 
+
+	return 0;
+}
