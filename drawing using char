@@ -1,0 +1,37 @@
+#include <stdio.h>
+
+int main(void) 
+{
+	int line;
+	int Count;
+	int input;
+    
+    printf("Enter the input value: ");
+	scanf("%d", &input);
+
+	for (line = 0; line < input; line++)
+
+	{
+		printf("*");
+		
+		for (Count = 0; Count < line; Count++) 
+		    
+		    printf(" ");
+			printf("*\n");
+		
+	}
+
+	for (line = input-1; line >= 0; line--)
+
+	{
+		printf("*");
+		
+		for (Count = 0; Count < line; Count++) 
+		    
+		    printf(" ");
+			printf("*\n");
+		
+	}
+
+	return 0;
+}
